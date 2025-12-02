@@ -39,7 +39,7 @@ public class Account {
             System.out.printf("Payment sucessful. New balance: %.2f%n", balance);
         } else {
             balance -= amount + (overdraftLimit * 0.2);
-            System.out.printf("Insufficient balance. Overdraft used with 20% fee. New balance: %.2f \n", balance);
+            System.out.printf("Insufficient balance. Overdraft used with 20%% fee. New balance: %.2f \n", balance);
         }
     }
 }
